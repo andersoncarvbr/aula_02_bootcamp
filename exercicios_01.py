@@ -121,15 +121,19 @@
 # resultado_and = (primeiro_valor == 'True') and (segundo_valor == 'True')
 # print(f"O resultado da operação AND entre {primeiro_valor} e {segundo_valor} é: {resultado_and}")
 
-# ### 17 - Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+# # ### 17 - Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
 
-primeiro_valor = input("Digite o primeiro valor booleano (True/False): ")
-segundo_valor = input("Digite o segundo valor booleano (True/False): ") 
-resultado_or = (primeiro_valor == 'True') or (segundo_valor == 'True')
-print(f"O resultado da operação OR entre {primeiro_valor} e {segundo_valor} é: {resultado_or}")
+# primeiro_valor = input("Digite o primeiro valor booleano (True/False): ")
+# segundo_valor = input("Digite o segundo valor booleano (True/False): ") 
+# resultado_or = (primeiro_valor == 'True') or (segundo_valor == 'True')
+# print(f"O resultado da operação OR entre {primeiro_valor} e {segundo_valor} é: {resultado_or}")
 
 
 # ### 18 - Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+
+valor1 = input("Digite um valor booleano (True/False): ") 
+resultado_not = not valor1
+print("Resultado do NOT lógico:", resultado_not)
 
 # ### 19 - Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 
