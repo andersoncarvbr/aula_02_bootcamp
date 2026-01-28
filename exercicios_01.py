@@ -135,14 +135,21 @@
 # resultado_not = not valor1
 # print("Resultado do NOT lógico:", resultado_not)
 
-# ### 19 - Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+# # ### 19 - Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 
-primeiro_valor = int(input("Digite o primeiro número: "))
-segundo_valor = int(input("Digite o segundo número: "))
+# primeiro_valor = int(input("Digite o primeiro número: "))
+# segundo_valor = int(input("Digite o segundo número: "))
 
-comparador = primeiro_valor == segundo_valor
+# comparador = primeiro_valor == segundo_valor
 
-print(f"Os números {primeiro_valor} e {segundo_valor} são iguais? {comparador}")
+# print(f"Os números {primeiro_valor} e {segundo_valor} são iguais? {comparador}")
 
 # ### 20 - Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+
+primeiro_valor = int(input("Digite o primeiro número: "))
+segundo_valor = int(input("Digite o segundo número: ")) 
+comparador = primeiro_valor != segundo_valor
+print(f"Os números {primeiro_valor} e {segundo_valor} são diferentes? {comparador}")
+
+
 
