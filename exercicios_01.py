@@ -63,13 +63,17 @@
 
 
 
-###  9 -Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+# ###  9 -Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 
-celsius = float(input("Digite a temperatura em Celsius: "))
-fahrenheit = (celsius * 9/5) + 32 
-print(f"A temperatura em Fahrenheit é igual a {fahrenheit}")
+# celsius = float(input("Digite a temperatura em Celsius: "))
+# fahrenheit = (celsius * 9/5) + 32 
+# print(f"A temperatura em Fahrenheit é igual a {fahrenheit}")
 
 
 
 ### 10 -Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+
+numero_raio = float(input("Digite o valor do raio do círculo: "))
+area_circulo = 3.14 * (numero_raio ** 2)    
+print(f"A área do círculo é igual a {area_circulo}")
 
