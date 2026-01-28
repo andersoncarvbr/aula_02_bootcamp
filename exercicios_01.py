@@ -56,13 +56,20 @@
 
 ###  8 -Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 
-numero_1 = float(input("Digite um numero: "))
+# numero_1 = float(input("Digite um numero: "))
 
-valor_potencia = numero_1 ** 2
-print(f"O valor da potência de {numero_1} é igual a {valor_potencia}")
+# valor_potencia = numero_1 ** 2
+# print(f"O valor da potência de {numero_1} é igual a {valor_potencia}")
 
 
 
 ###  9 -Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+
+celsius = float(input("Digite a temperatura em Celsius: "))
+fahrenheit = (celsius * 9/5) + 32 
+print(f"A temperatura em Fahrenheit é igual a {fahrenheit}")
+
+
+
 ### 10 -Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
