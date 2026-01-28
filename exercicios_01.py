@@ -129,13 +129,20 @@
 # print(f"O resultado da operação OR entre {primeiro_valor} e {segundo_valor} é: {resultado_or}")
 
 
-# ### 18 - Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+# # ### 18 - Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 
-valor1 = input("Digite um valor booleano (True/False): ") 
-resultado_not = not valor1
-print("Resultado do NOT lógico:", resultado_not)
+# valor1 = input("Digite um valor booleano (True/False): ") 
+# resultado_not = not valor1
+# print("Resultado do NOT lógico:", resultado_not)
 
 # ### 19 - Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+
+primeiro_valor = int(input("Digite o primeiro número: "))
+segundo_valor = int(input("Digite o segundo número: "))
+
+comparador = primeiro_valor == segundo_valor
+
+print(f"Os números {primeiro_valor} e {segundo_valor} são iguais? {comparador}")
 
 # ### 20 - Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
