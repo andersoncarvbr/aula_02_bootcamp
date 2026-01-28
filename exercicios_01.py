@@ -79,13 +79,15 @@
 
 ### 11 Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
 
-palavra_informada = input("Digite uma palavra: ")
-palavra_maiuscula = palavra_informada.upper()
-print(f"A palavra em maiúsculas é: {palavra_maiuscula}")
+# palavra_informada = input("Digite uma palavra: ")
+# palavra_maiuscula = palavra_informada.upper()
+# print(f"A palavra em maiúsculas é: {palavra_maiuscula}")
 
 ### 12 Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
 
-
+palavra_informada = input("Digite o nome completo: ")
+palavra_minuscula = palavra_informada.lower()
+print(f"A palavra em minúsculas é: {palavra_minuscula}")
 ### 13 Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 
 
