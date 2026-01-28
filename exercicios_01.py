@@ -105,5 +105,27 @@
 # print(f"Mês: {mes}")
 # print(f"Ano: {ano}")
 
-### 15 Escreva um programa que concatene duas strings fornecidas pelo usuário.
+
+# ### 15 Escreva um programa que concatene duas strings fornecidas pelo usuário.
+
+# primeiro_nome = input("Digite o primeiro nome: ")
+# sobrenome = input("Digite o sobrenome: ")
+# nome_completo = primeiro_nome + " " + sobrenome 
+# print(f"O nome completo é: {nome_completo}")
+
+# ### 16 - Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+
+
+primeiro_valor = input("Digite o primeiro valor booleano (True/False): ")
+segundo_valor = input("Digite o segundo valor booleano (True/False): ")
+resultado_and = (primeiro_valor == 'True') and (segundo_valor == 'True')
+print(f"O resultado da operação AND entre {primeiro_valor} e {segundo_valor} é: {resultado_and}")
+
+# ### 17 - Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+
+# ### 18 - Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+
+# ### 19 - Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+
+# ### 20 - Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
