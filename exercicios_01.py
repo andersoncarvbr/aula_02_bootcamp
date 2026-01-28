@@ -47,14 +47,22 @@
 
 
 
-###  7 -Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
-numero_1 = float(input("Digite o primeiro valor:"))
-numero_2 = float(input("Digite o segundo valor:"))
-valor_media = (numero_1 + numero_2) / 2
-print(f"A Média entre o valor {numero_1} e o valor {numero_2} é igual a {valor_media}")
+# ###  7 -Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+# numero_1 = float(input("Digite o primeiro valor:"))
+# numero_2 = float(input("Digite o segundo valor:"))
+# valor_media = (numero_1 + numero_2) / 2
+# print(f"A Média entre o valor {numero_1} e o valor {numero_2} é igual a {valor_media}")
 
 
 ###  8 -Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+
+numero_1 = float(input("Digite um numero: "))
+
+valor_potencia = numero_1 ** 2
+print(f"O valor da potência de {numero_1} é igual a {valor_potencia}")
+
+
+
 ###  9 -Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 ### 10 -Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
